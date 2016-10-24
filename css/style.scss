@@ -1,0 +1,47 @@
+@import 'setup';
+@import 'variables';
+@import 'responsiveFont';
+
+
+@import 'headerFooter';
+@import 'main';
+
+
+
+.wrapper{
+	width: 70%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+
+body{
+	letter-spacing:1px;
+	font-family: 'Trirong', serif;
+	font-weight:300;
+	color: $DarkGrey;
+}
+
+h2, h3, h4, h5, h6{
+	font-weight:400;
+
+}
+
+
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	// turn off wrapper margin 
+	.wrapper{
+		width: 90%;
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

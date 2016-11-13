@@ -1,0 +1,60 @@
+@import 'setup';
+@import 'variables';
+@import 'responsiveFont';
+
+
+@import 'headerFooter';
+@import 'main';
+
+
+
+.wrapper{
+	width: 70%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+
+body{
+	letter-spacing:1px;
+	font-family: 'Trirong', serif;
+	font-weight:300;
+	color: $DarkGrey;
+}
+
+h2, h3, h4, h5, h6{
+	font-weight:400;
+
+}
+
+//page laoder
+
+.js div#preloader { 
+	position: fixed; 
+	left: 0; top: 0; 
+	z-index: 999; 
+	width: 100%; 
+	height: 100%; 
+	overflow: visible; 
+	background: white url('/images/squares.gif') no-repeat center center; 
+}
+
+
+
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	// turn off wrapper margin 
+	.wrapper{
+		width: 90%;
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}

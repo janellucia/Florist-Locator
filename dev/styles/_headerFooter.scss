@@ -1,0 +1,205 @@
+header{
+	background: $floristMain;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+.containerHeader{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.logo{
+		width: 20%;
+		display: flex;
+		justify-content: flex-start;
+		h2{
+			color: white;
+			font-weight: 900;
+			font-style: italic;
+			font-family: 'Trirong', serif;
+			@include responsive-font(1.5vw, 11px, 36px);
+			padding: 2%;
+    		margin: 0;
+    		border: 3px solid white;
+    		border-radius: 50%;
+    		width: 50px;
+    		text-align: center;
+
+		}
+	}
+	.title{
+		width: 45%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items:center;
+		h1{
+			color: white;
+			font-weight: 900;
+			font-style: italic;
+			font-family: 'Trirong', serif;
+			@include responsive-font(3vw, 16px, 50px);
+			margin: 0;
+		}
+		p{
+			color: white;
+			font-weight: 900;
+			margin-top: 0;
+			@include responsive-font(1vw, 8px, 18px);
+		}
+	}
+	form {
+		display: flex;
+		width: 25%;
+		justify-content: flex-end;
+		position:relative;
+		#pac-input {
+		    width: 45px;
+		    -webkit-transition: width 0.4s ease-in-out;
+		    transition: width 0.4s ease-in-out;
+		    border-radius: 30px;
+	    	background: transparent;
+	    	border: 3px solid white;
+		}
+		#pac-input:focus {
+		    width: 60%;
+		    background: lightgrey;
+		    outline: none;
+		}
+		.fa-search { 
+			position: absolute;
+			top:13px;
+			right: 75px;
+			@include responsive-font(1vw, 10px, 20px);
+			color: white;
+		}
+		#selector {
+		    color: #fff;
+		    background-color: #4d90fe;
+		    margin-left: 10px;
+		    padding: 5% 0;
+		    border-radius: 30px;
+		    @include responsive-font(1vw, 10px, 20px);
+		    line-height: 1vw;
+		    font-weight: 900;
+		    border: 3px solid white;
+		    width: 50px;
+		}
+	}
+}
+
+
+
+//footer starts here
+
+footer{
+	background: $floristMain;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	height: 5vh;
+	bottom: 0;
+	// z-index: 99;
+	// clear: both;
+}
+
+.containerFooter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p{
+		color: white;
+		font-weight: 400;
+		font-family: 'Trirong', serif;
+		@include responsive-font(1.5vw, 10px, 30px);
+		margin: 0;
+		a{
+			text-decoration: none;
+			color: white;
+			font-style: italic;
+		}
+	}
+}
+
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+
+	.containerHeader{
+
+		flex-direction:column;
+	.logo{
+			display: none;
+	}
+	.title{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items:center;
+		h1{
+			color: white;
+			font-weight: 900;
+			font-style: italic;
+			font-family: 'Trirong', serif;
+			@include responsive-font(3vw, 16px, 50px);
+			margin: 0;
+		}
+		p{
+			color: white;
+			font-weight: 900;
+			margin-top: 0;
+			@include responsive-font(1vw, 8px, 18px);
+		}
+	}
+	form {
+			width: 100%;
+			// margin-right:20%;
+		justify-content: center;
+		align-items:center;
+		position:relative;
+		#pac-input {
+		    width: 45px;
+		    -webkit-transition: width 0.4s ease-in-out;
+		    transition: width 0.4s ease-in-out;
+		    border-radius: 30px;
+	    	background: transparent;
+	    	border: 3px solid white;
+		}
+		#pac-input:focus {
+		    width: 60%;
+		    background: lightgrey;
+		    outline: none;
+		}
+		.fa-search { 
+			position: absolute;
+			top:18px;
+			right:56%;
+			@include responsive-font(1vw, 10px, 20px);
+			color: white;
+		}
+		#selector {
+		    color: #fff;
+		    background-color: #4d90fe;
+		    margin-left: 10px;
+		    padding: 5% 0;
+		    border-radius: 30px;
+		    @include responsive-font(1vw, 10px, 20px);
+		    line-height: 1vw;
+		    font-weight: 900;
+		    border: 3px solid white;
+		    width: 50px;
+		}
+	}
+}
+ 
+}

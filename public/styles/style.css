@@ -138,7 +138,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       font-size: 50px; } }
 
 header {
-  background: #c775bf;
+  background: #efc3c0;
   position: fixed;
   width: 100%;
   z-index: 99; }
@@ -256,7 +256,7 @@ header {
           font-size: 20px; } }
 
 footer {
-  background: #c775bf;
+  background: #efc3c0;
   position: fixed;
   width: 100%;
   margin: 0 auto;
@@ -381,7 +381,7 @@ footer {
           font-size: 20px; } }
 
 main {
-  background-image: url("/images/background-2.jpeg");
+  background-image: url("/images/background-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

@@ -155,14 +155,13 @@ flowerApp.getAddress = function() {
 
 //images for flower cards
 var flowerCardImages = new Array(
-  "../images/flower_00.png",
-  "../images/flower_01.jpg",
-  "../images/flower_02.jpg",
-  "../images/flower_03.jpg",
+  "../images/flower_01.png",
+  "../images/flower_02.png",
+  "../images/flower_03.png",
   "../images/flower_04.png",
   "../images/flower_05.png",
-  "../images/flower_06.jpeg",
-  "../images/flower_07.jpg"
+  "../images/flower_06.png",
+  "../images/flower_07.png"
   );
 
 

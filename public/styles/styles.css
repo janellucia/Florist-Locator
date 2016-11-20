@@ -381,7 +381,7 @@ footer {
           font-size: 20px; } }
 
 main {
-  background-image: url("./images/background-3.jpg");
+  background-image: url("../images/background-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -393,7 +393,8 @@ main {
     margin: 0 auto;
     width: 100%;
     height: 300px;
-    margin: 5% 0; }
+    margin: 5% 0;
+    opacity: 0.9; }
   .containerMain #flowerShop {
     display: -ms-flexbox;
     display: flex;
@@ -404,6 +405,7 @@ main {
     width: 100%; }
     .containerMain #flowerShop .card {
       width: 30%;
+      opacity: 0.9;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
@@ -488,7 +490,7 @@ h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: white url("/images/squares.gif") no-repeat center center; }
+  background: white url("../images/squares.gif") no-repeat center center; }
 
 @media (max-width: 767px) {
   .wrapper {

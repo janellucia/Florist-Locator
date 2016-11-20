@@ -10,6 +10,8 @@ jQuery(document).ready(function ($) {
   });
 });
 
+console.log("heyheyhey");
+
 var flowerApp = {};
 flowerApp.mapMarkers = [];
 flowerApp.mapBounds = new google.maps.LatLngBounds();

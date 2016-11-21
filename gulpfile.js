@@ -16,7 +16,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('scripts',() => {
-	return gulp.src('./dev/scripts/script.js')
+	return gulp.src('dev/scripts/script.js')
 		.pipe(babel({
 			presets:['es2015']
 		}))

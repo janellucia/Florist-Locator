@@ -8,7 +8,6 @@ jQuery(document).ready(function($) {
 });
 
 
-
 console.log("heyheyhey");
 
 var flowerApp = {};

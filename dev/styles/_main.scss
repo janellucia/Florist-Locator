@@ -1,5 +1,6 @@
 .main{
   background-image: url("/images/background-3.jpg");
+  background: lighten($floristMain, 5%);
   background-repeat:no-repeat;
   background-attachment: fixed;
   background-position: center;

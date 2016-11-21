@@ -382,6 +382,7 @@ footer {
 
 .main {
   background-image: url("/images/background-3.jpg");
+  background: #f4d6d4;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

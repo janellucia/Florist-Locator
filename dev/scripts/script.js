@@ -195,7 +195,7 @@ flowerApp.displayPlaces = function(flowerShops){
     //create p to hold the business rating
     var $businessRating = $('<p>').text(flowerObject.rating);
      //create p to hold the business hours
-    var $businessHours = $('<p>').append(flowerObject.reference);
+    // var $businessHours = $('<p>').append(flowerObject.);
     var $flowerImage = $('<img>').attr({src: flowerCardImages[randomNum]});
     // Add business info to Florist Business Cards
         $flowerInfoContainer.append($businessName, $businessLocation, $businessRating);

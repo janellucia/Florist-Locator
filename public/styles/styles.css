@@ -381,15 +381,14 @@ footer {
           font-size: 20px; } }
 
 .main {
-  background-image: url("/images/background-3.jpg");
-  background: #f4d6d4;
+  background-image: url("https://68.media.tumblr.com/dea02de7d257fc012d1fd849e00a71c2/tumblr_mwsc39ftkV1ql7wodo1_500.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover; }
 
 .containerMain {
-  padding: 5% 0; }
+  padding: 10% 0; }
   .containerMain #map {
     margin: 0 auto;
     width: 100%;
